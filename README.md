@@ -45,7 +45,7 @@ This N-bit multiplier is highly customizable and optimized for performance, with
 - **Output Result**: An N-bit result output representing the product of the two input operands.
 
 ## Example Configuration:
-- **Multiplier Bit-Width**: N = 16 (can be parameterized for other bit-widths)
+- **Multiplier Bit-Width**: N = 8 (can be parameterized for other bit-widths)
 - **Design Language**: Verilog
 - **Pipelining Stages**: Three stages: Partial Product Generation, Addition, Output.
 
