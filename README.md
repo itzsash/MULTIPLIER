@@ -4,6 +4,9 @@ This repository contains a **Parameterized N-bit Multiplier** design implemented
 ## What is a Multiplier?
 A **multiplier** is a digital circuit that performs multiplication of two numbers. It is a fundamental component in various applications, including processors, digital signal processing, and arithmetic computation units.
 
+![Screenshot 2024-10-11 214536](https://github.com/user-attachments/assets/8e6646ea-6ce5-4d04-b707-5dbade370333)
+
+
 ## Key Features of N-Bit Multiplier
 This N-bit multiplier is highly customizable and optimized for performance, with support for pipelining to allow multiple multiplication operations to be executed simultaneously.
 
@@ -45,6 +48,12 @@ This N-bit multiplier is highly customizable and optimized for performance, with
 - **Multiplier Bit-Width**: N = 16 (can be parameterized for other bit-widths)
 - **Design Language**: Verilog
 - **Pipelining Stages**: Three stages: Partial Product Generation, Addition, Output.
+
+## Outputs
+
+![Screenshot 2024-10-11 210516](https://github.com/user-attachments/assets/350c7d23-f3fb-4f66-b7b0-71d53df921e4)
+
+![Screenshot 2024-10-11 210720](https://github.com/user-attachments/assets/a5539e59-d469-44ad-9ed6-05f2eb1a572b)
 
 ## Future Enhancements:
 - **Parallel Processing**: Exploring techniques to implement parallel multiplication for further performance improvements.
